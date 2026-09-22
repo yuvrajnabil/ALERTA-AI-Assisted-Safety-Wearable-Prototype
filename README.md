@@ -1,4 +1,4 @@
-# ALERTA Rebuild
+# ALERTA_Prototype
 
 **AI-assisted multi-domain safety wearable prototype** for people living with
 Alzheimer's disease, older adults, and people who may need rapid emergency
