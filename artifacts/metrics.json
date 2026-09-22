@@ -1,0 +1,73 @@
+{
+  "created_utc": "2026-09-13T18:38:51.758140+00:00",
+  "data_file": "data/alerta_synthetic_v1.csv",
+  "rows": 6000,
+  "subjects": 80,
+  "seed": 42,
+  "warning": "Metrics use synthetic feature windows only and must not be interpreted as clinical or field performance.",
+  "fall": {
+    "threshold": 0.85,
+    "accuracy": 0.9868,
+    "balanced_accuracy": 0.9398,
+    "precision": 0.9811,
+    "recall": 0.8814,
+    "f1": 0.9286,
+    "roc_auc": 0.9685,
+    "confusion_matrix": [
+      [
+        1091,
+        2
+      ],
+      [
+        14,
+        104
+      ]
+    ],
+    "test_negative": 1093,
+    "test_positive": 118,
+    "features": [
+      "accel_mean_g",
+      "accel_std_g",
+      "accel_peak_g",
+      "gyro_peak_dps",
+      "posture_change_deg",
+      "immobility_s"
+    ],
+    "train_subjects": 64,
+    "test_subjects": 16,
+    "estimators": 24,
+    "max_depth": 6
+  },
+  "health": {
+    "threshold": 0.46,
+    "accuracy": 0.9711,
+    "balanced_accuracy": 0.8945,
+    "precision": 0.8046,
+    "recall": 0.8046,
+    "f1": 0.8046,
+    "roc_auc": 0.9157,
+    "confusion_matrix": [
+      [
+        1074,
+        17
+      ],
+      [
+        17,
+        70
+      ]
+    ],
+    "test_negative": 1091,
+    "test_positive": 87,
+    "features": [
+      "heart_rate_bpm",
+      "spo2_percent",
+      "ppg_signal_quality",
+      "accel_mean_g",
+      "accel_std_g"
+    ],
+    "train_subjects": 64,
+    "test_subjects": 16,
+    "estimators": 24,
+    "max_depth": 6
+  }
+}

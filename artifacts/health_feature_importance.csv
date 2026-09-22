@@ -1,0 +1,6 @@
+feature,importance
+spo2_percent,0.5233225552302155
+heart_rate_bpm,0.3154794184500331
+accel_std_g,0.10064436131740369
+accel_mean_g,0.033511597047649604
+ppg_signal_quality,0.027042067954698195

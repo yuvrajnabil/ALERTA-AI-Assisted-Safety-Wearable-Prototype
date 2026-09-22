@@ -1,0 +1,7 @@
+feature,importance
+gyro_peak_dps,0.2937015260014161
+accel_peak_g,0.26303442361898627
+accel_std_g,0.1934995242927584
+posture_change_deg,0.13850626527913976
+immobility_s,0.09508098921479498
+accel_mean_g,0.01617727159290449
